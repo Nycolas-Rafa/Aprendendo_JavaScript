@@ -186,5 +186,27 @@ let dobro = numeros.map(function(numero){
 
 console.log(dobro);
 
+console.log("--------------------------------------");
+
+const numeross= [1,2,3];
+const [a1,b1,c1]=numeross;
+
+console.log(a1);
+console.log(b1);
+console.log(c1);
+
+const [primeiro, , terceiro]=numeross;
+
+
+console.log(primeiro);
+console.log(terceiro);
+
+const [ x1=10, y1=20, z1=30] = [5, , 25]
+
+console.log(x1);
+console.log(y1);
+console.log(z1);
+
+console.log("--------------------------------------");
 
 
