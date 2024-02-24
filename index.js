@@ -40,3 +40,38 @@ let mensagem1="O navio 'Mars' faz escala no porto";
 let mensagem2="A chuva forte passará perto da Cidade de São Paulo";
 
 console.log(mensagem1 + " " + mensagem2);
+
+console.log("--------------------------------------"); 
+
+
+let nome="Jose";
+let idade=30;
+
+let mensagem = `Ola, ${nome}! voce tem ${idade} anos.`;	
+
+console.log("--------------------------------------"); 
+
+let multiLineString =  `
+Está é uma string 
+com multiplas linhas. \n
+Ela pode ser usada para representar 
+textos multilinhas.`;
+
+console.log(multiLineString);
+
+
+let texto="Olá, mundo!";
+
+console.log(texto.startsWith("Olá"));
+console.log(texto.endsWith("mundo!" ));
+console.log(texto.includes("mundo"));
+console.log("abc".repeat(3));
+
+console.log("--------------------------------------"); 
+
+let caminho = String.raw`C:\Users\João\Documents`;
+console.log(caminho);
+
+console.log("--------------------------------------");
+
+
