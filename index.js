@@ -74,4 +74,117 @@ console.log(caminho);
 
 console.log("--------------------------------------");
 
+let text="JavaScript";
+console.log(texto.charAt(4));
+let frase="O gato subiu no telhado e depois pulou.";
+console.log(frase.indexOf("gato"));
+console.log(frase.lastIndexOf("pulou"));
+
+let palavra="abacaxi";
+console.log(palavra.substring(2,5));
+let texto2="Esta é uma String";
+console.log(texto.slice(5,7));
+
+console.log("--------------------------------------");
+
+let lista="JavaScript";
+
+console.log("--------------------------------------");
+
+
+let isDataValida = true;
+let isGameOver=false;
+
+console.log(false)
+console.log(typeof false);
+console.log(isDataValida);
+console.log(typeof isGameOver);
+console.log("--------------------------------------");
+
+
+let resultadoSoma;
+
+function soma(a,b){
+  return a+b;
+}
+
+resultadoSoma=soma(2,3);
+console.log("Resultado da soma: " + resultadoSoma);
+
+console.log("--------------------------------------");
+
+let multiplicar=function(a,b){
+  return a*b
+}
+
+console.log(multiplicar(4,3));
+
+console.log("--------------------------------------");
+
+let dividir=(a,b)=>a/b;
+console.log(dividir(10,2));
+
+console.log("--------------------------------------");
+
+let usuario1={}
+console.log(usuario1);
+console.log(typeof usuario1);
+
+let usuario2={
+  nome:"João",
+  sobrenome:"Silva",
+  idade:27,
+  email:"joao@email.com"
+}
+console.log(usuario2.nome + " " + usuario2.sobrenome);
+console.log(usuario2.idade)
+console.log(usuario2.email);
+
+let usuario3={
+  nome:"Maria",
+  sobrenome:"Silva",
+  idade:28,
+  email:"maria@email.com"
+}
+console.log(usuario3.nome + " " + usuario2.sobrenome);
+usuario3.idade=30;
+console.log(usuario3.idade);
+
+console.log("--------------------------------------");
+
+let carro={
+  marca: "Fiat",
+  modelo:"Toro",
+
+  acelerar: function(){
+  console.log("O carro está acelerando!")
+  }
+}
+
+carro.acelerar();
+
+console.log("--------------------------------------");
+
+let numeros = [ 1,2,3,4,5];
+let nomes = ["Bruno", "Carlos", "Diego"];
+let misto = [ 1,"dois", true, {chave:"valor"}];
+
+console.log(numeros[0]);
+console.log(nomes[1]);
+
+for(let i = 0; i< numeros.length; i++){
+  console.log(numeros[i])
+}
+
+numeros.forEach(function(numero){
+  console.log(numero);
+});
+
+let dobro = numeros.map(function(numero){
+  return numero*2;
+}) 
+
+console.log(dobro);
+
+
 
